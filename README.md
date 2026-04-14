@@ -28,5 +28,7 @@ Using Binary encoding, we are able to reduce the cost by reducing the dff's down
 
 ### Which method did your team find easier, and why?
 
+Although it might have been more costly, we found one-hot easier to implement because there was less combinatorial logic to reduce down and implement in the one-hot file, although it used more DFFs which would turn costly, it allowed us to easily copy and paste the logic. 
+
 ### In what conditions would you have to use one over the other? Think about resource utilization on the FPGA.
 
