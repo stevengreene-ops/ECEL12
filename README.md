@@ -12,8 +12,15 @@ In this lab, you’ve learned about One Hot and Binary state machines and how to
 | Question 3 | Your answers to the question | 25% |
 
 ## Name
+Steven Greene Diego Vargas
 
 ## Summary
+
+In this lab we built a One-Hot, and a Binary Assignment state machine using Dflip flops. We were given a list of 5 states, and their logic to the next states, and using DFF's to store the logic, we had to wire them in combinatorial logic to the DFF's to control the output based on the next state given to us from the state table. 
+
+Using one-hot encoding, we were able to isolate one specific state at a time, to allow us to visualize one LED per-state. This is less efficient as it requires a DFF per state, and an LED per state. 
+
+Using Binary encoding, we are able to reduce the cost by reducing the dff's down to only three dffs. This allowed us to reduce the amount of LEDs as well so that we could represent values in binary on the LEDs rather than the one-hot LED. 
 
 ## Lab Questions
 
